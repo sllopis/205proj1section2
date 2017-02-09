@@ -3,6 +3,8 @@
 #02/07/2017
 #CST 205
 
+#github link: https://github.com/sllopis
+
 from PIL import Image
 
 #GETTING THE MEDIAN + SORTING FUNCTION
@@ -42,8 +44,6 @@ redpx = []
 greenpx = []
 bluepx= []
 
-
-
 for x in range(0, pictureWidth - 1):
     for y in range(0, pictureHeight - 1):
         for myImage in imgList:
@@ -66,111 +66,4 @@ for x in range(0, pictureWidth - 1):
     
 newimg.save("canvas.png")
     
-        
-
-#median
-#clear
-#output
-
-#newimg.putpixel((x,y), (myred, mygreen, myblue)) 
-
-#canvas.putpixel()
-
-# newimage.save()
-
-#Calling for the function
-#print medianoper(greenpx)
-
-
-
-
-
-#medianoper((redpx,greenpx,bluepx))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# canvas.putpixel
-
-# canvas.save()
-
-# range(im1,im2,im3,im4,im5,im6,im7,im8,im9)
-
-# for x in range(9):
-#     print (range)
-
-# for x in xrange(495):
-#     for y in xrange (557):
-#         px = im1.getpixel()
-    
-#px = []
-
-#px = im.load()
-#print (px[4,4])
-
-#print (im.format)
-
-#class PIL.ImageFilter.MedianFilter(size=3)
-
-#pix_val is the list that contains all
-#the pixel values which can be printed to see those values
-
-#im = array(Image.open('empire.jpg'))
-#print im.shape, im.dtype
-
-
-#im.new(RGB, (495, 557), color=0)
-
-#px = im.load()
-
-#array
-#loop to check
-#calculate the median
-#info put back into the new image
-#for x range (10):
-    
-
-# images = Image.open('images/1.png',
-#           'images/2.png',
-#           'images/3.png',
-#           'images/4.png',
-#           'images/5.png',
-#           'images/6.png',
-#           'images/7.png',
-#           'images/8.png',
-#           'images/9.png',)
-
-
-
-
-
-
-
+  
