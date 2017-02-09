@@ -20,24 +20,15 @@ def medianoper(myList):
     # Return the object located at that index
     return sortedValues[middleIndex]
 
-#Opening the images
-for i in range(1,10):
-    Image.open("images/" + str(i) + ".png")
-    
-    
-# Size of the Images (Width and Height)
-pictureWidth = 495
-pictureHeight = 557
-
-#Array for adding images to the List
+#Array for adding images to the List + Opening the images
 imgList = []
 for i in range(1,10):
     imgList.append(Image.open("images/" + str(i) + ".png"))
-    
+
+pictureWidth, pictureHeight = imgList[0].size
     
 #Creating new image blue color
 newimg = Image.new("RGB", ((pictureWidth,pictureHeight)), color=None)
-
 
 #Creating a list for the colors (9 colors)
 redpx = []
