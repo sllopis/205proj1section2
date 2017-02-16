@@ -23,7 +23,7 @@ def medianoper(myList):
 #Array for adding images to the List + Opening the images
 imgList = []
 for i in range(1,10):
-    imgList.append(Image.open("images/" + str(i) + ".png"))
+    imgList.append(Image.open("otherimages/" + str(i) + ".png"))
 
 pictureWidth, pictureHeight = imgList[0].size
     
